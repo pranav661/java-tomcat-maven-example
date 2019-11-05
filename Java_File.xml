@@ -1,0 +1,20 @@
+<suite name="Test1">
+	
+
+	<!-- detail level is a decimal value based on the following binary options 
+		being on or off -->
+	
+	
+	<test verbose="10" name="FeedbackDrawer" annotations="JDK"
+		preserve-order="true">
+		
+		
+		
+		<classes>
+			<!-- SystemType=SIEBEL for SIEBEL CRM |||||SystemType=MUST for MUST CRM -->
+			
+			
+			<class name="SampleProject.Java_File" />
+		</classes>
+	</test>
+</suite>
