@@ -14,6 +14,20 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    
+    
+    <dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-chrome-driver</artifactId>
+			<version>3.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.11</version>
+		</dependency>
+    
+    
   </dependencies>
   <build>
     <finalName>java-tomcat-maven-example</finalName>
